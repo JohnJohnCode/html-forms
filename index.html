@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <section class="login-cont">
+        <div class="login-text">
+            <p class="already-have">Already have an Intuit account?</p>
+            <p><a href="/">I forgot my User ID or Password</a></p>
+        </div>
+        <button class="login-btn"><span class="material-icons md-18 md-light">lock</span><span class="signin-text">Sign In</span></button>
+    </section>
+    <main class="form-cont">
+        <header class="header">
+            <img src="./assets/logo.png" height="initial">
+        </header>
+        <section>
+            <form class="form">
+                <fieldset>
+                    <legend class="form-legend">
+                        <span class="legend-create">Create an Intuit account</span>
+                        <span class="legend-one">One account for everything Intuit, including Mint.</span>
+                        <span class="legend-learn"><a href="/">Learn more.</a></span>
+                    </legend>
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone">Phone (recommended)</label>
+                    <input type="tel" id="phone" name="tel">
+                    <p>Standard call, messaging or data rates may apply.</p>
+                    <label for="password">Password</label>
+                    <div class="pass-cont">
+                        <input type="password" id="password" name="password">
+                        <span class="material-icons md-24 md-notsodark pass-lock">lock_open</span>
+                    </div>
+                    <button><span class="material-icons-outlined md-24 create-lock">lock</span><span class="create-acc">Create Account</span></button>
+                    <div class="form-agree">
+                        <span>By clicking Create Account, you agree to our<br></span>
+                        <span><a href="/">Terms</a> and have read and acknowledge our <a href="/">Global Privacy <br>Statement</a>.</span>
+                    </div>
+                    <div class="captcha-cont">
+                        <span class="captcha">Invisible reCAPTCHA by Google <a href="/">Privacy Policy</a> and <a href="/">Terms of Use</a>.</span>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <footer class="main-footer">
+            <ul class="footer-links">
+                <li><a class="li-link" href="/">Legal</a></li>
+                <li><a class="li-link" href="/">Privacy</a></li>
+                <li><a class="li-link" href="/">Security</a></li>
+            </ul>
+            <p class="footer-copyright">© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+            <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </footer>
+    </main>
+    <footer class="footer">
+        <a href="/">Privacy Settings</a>
+    </footer>
+  </body>
+</html>

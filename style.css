@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-notsodark { color: rgba(0, 0, 0, 0.3); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+/* ---------------
+
+    TOP SIGN IN BUTTON
+
+   --------------- */
+
+body { 
+    background-color: #eceef1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-cont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-flow: nowrap row;
+    width: 100%;
+    margin-top: 0.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0077C5;
+}
+
+.login-text {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #0077C5;
+}
+
+.already-have {
+    margin-bottom: 0.4rem;
+    color: #505050;
+}
+
+.signin-text {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.login-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+    height: 2.1rem;
+    width: 6.7rem;
+    margin: 0 2rem 0 0.5rem;
+    background-color: #0077c5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+}
+
+/* ------------------
+
+       FORM
+
+   ------------------ */
+
+.header { margin-bottom: 0.8rem; }
+
+.form-cont {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6rem;
+}
+
+.form {
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    width: 23.7rem;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form fieldset {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-legend {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.legend-create {
+    color: #393A3D;
+    margin: 1.8rem auto 1.5rem auto;
+    font-size: 1.5rem;
+}
+
+.legend-one {
+    color: #393A3D;
+    font-size: 0.86rem;
+    margin-bottom: 4px;
+}
+
+.legend-learn { font-size: 0.86rem; }
+
+.form input {
+    width: 83.8%;
+    height: 1.9rem;
+    margin: 0.8rem 0 2.1rem 0;
+    border: 1px solid #C1C5C8;
+    border-radius: 4px;
+}
+
+.form input:focus {
+    border: 1px solid #52A8EC;
+    outline: 0 none;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.form input[type="tel"] {
+    margin-bottom: 0.5rem;
+}
+
+.form p {
+    font-size: 0.7rem;
+    width: 84.6%;
+    text-align: left;
+    color: #444;
+    margin-bottom: 2.1rem;
+}
+
+.form label {
+    width: 84.6%;
+    text-align: left;
+    color: #393A3D;
+    font-size: 0.9rem;
+}
+
+.pass-cont {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pass-lock {
+    position: absolute;
+    z-index: 100;
+    top: 24%;
+    right: 9.5%;
+}
+
+.form button {
+    width: 84.6%;
+    height: 2.8rem;
+    background: #0077C5;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    border: none;
+    border-radius: 4px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.create-lock { color:rgba(255, 255, 255, 1); }
+
+.create-acc {
+    font-size: 1rem;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form-agree {
+    color: #757575;
+    font-style: italic;
+    font-size: 0.75rem;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 17px;
+}
+
+.captcha-cont {
+    width: 100%;
+    height: 3.4rem;
+    color: #8d9096;
+    font-size: 0.68rem;
+    text-align: center;
+    background-color: #ECEEF1;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1.2rem 0 3rem 0;
+}
+
+.footer-links li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.li-link { color: #505050; }
+.li-link:visited { color: #505050; }
+
+.main-footer p {
+    color: #505050;
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+}
+
+/* -------------
+
+    FOOTER
+
+   ------------- */
+
+.footer {
+    width: 100%;
+    height: 3.8rem;
+    background-color: white;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
